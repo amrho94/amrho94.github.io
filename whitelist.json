@@ -1,5 +1,12 @@
 {
-  "PremiumUsers": {},
+  "PremiumUsers": {
+    "11241745": {
+      "tags": [{
+        "text": "Abyss Plus",
+        "color": [157, 94, 255]
+      }]
+    }
+  },
   "WhitelistedUsers": {},
   "BlacklistedUsers": {},
   "KillVape": false
