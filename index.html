@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09070f">
+  <meta name="description" content="AbyssVape — BedWars' best config. Fast, clean, and built for the void.">
+  <meta property="og:title" content="AbyssVape">
+  <meta property="og:description" content="BedWars' best config.">
+  <meta property="og:type" content="website">
+  <title>AbyssVape — BedWars' Best Config</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="glow glow-one" aria-hidden="true"></div>
+  <div class="glow glow-two" aria-hidden="true"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="AbyssVape home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" role="img">
+            <path d="M16 3 27 9.4v13.2L16 29 5 22.6V9.4L16 3Z"/>
+            <path d="m11 20 5-11 5 11-5-2.3L11 20Z"/>
+          </svg>
+        </span>
+        <span>Abyss<span class="accent-text">Vape</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#status">Status</a>
+        <a href="#download">Download</a>
+      </div>
+
+      <a class="button button-small button-ghost" href="#download">Get config</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="eyebrow reveal">
+        <span class="status-dot"></span>
+        Built for BedWars
+      </div>
+
+      <h1 class="reveal delay-1">
+        Outplay everyone.<br>
+        <span class="gradient-text">Own the abyss.</span>
+      </h1>
+
+      <p class="hero-copy reveal delay-2">
+        BedWars' best config. Tuned for smooth gameplay, clean visuals,
+        and the kind of performance that lets you focus on the win.
+      </p>
+
+      <div class="hero-actions reveal delay-3">
+        <a class="button button-primary" href="#download">
+          Get AbyssVape
+          <svg viewBox="0 0 20 20" aria-hidden="true">
+            <path d="m7.5 4.5 5 5.5-5 5.5"/>
+          </svg>
+        </a>
+        <a class="button button-secondary" href="#features">Explore features</a>
+      </div>
+
+      <div class="hero-visual real-showcase reveal delay-4" aria-label="AbyssVape interface preview">
+        <div class="orbital orbital-one"></div>
+        <div class="orbital orbital-two"></div>
+        <div class="showcase-frame">
+          <div class="showcase-label">
+            <span class="status-dot"></span>
+            Real interface
+          </div>
+          <img class="showcase-image" src="assets/abyss-ui.png" alt="AbyssVape interface with Combat, Blatant, Render, Utility, World, Exploit, and Profiles panels">
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="features">
+      <div class="section-heading scroll-reveal">
+        <span class="kicker">WHY ABYSS</span>
+        <h2>Everything you need.<br><span class="muted">Nothing you don't.</span></h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card scroll-reveal">
+          <span class="feature-number">01</span>
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13 2-9 12h7l-1 8 9-12h-7l1-8Z"/></svg>
+          </div>
+          <h3>Optimized</h3>
+          <p>A carefully tuned setup designed for responsive, consistent gameplay.</p>
+        </article>
+
+        <article class="feature-card scroll-reveal">
+          <span class="feature-number">02</span>
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 7v5l3 2"/><path d="M17 3h4v4"/></svg>
+          </div>
+          <h3>Fast setup</h3>
+          <p>Get up and running quickly with a config that keeps things simple.</p>
+        </article>
+
+        <article class="feature-card scroll-reveal">
+          <span class="feature-number">03</span>
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <h3>Abyss Plus</h3>
+          <p>ID-based premium access powered by a simple JSON whitelist endpoint.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="status">
+      <div class="status-panel scroll-reveal">
+        <div>
+          <span class="kicker">CURRENT STATUS</span>
+          <h2>Ready for the void.</h2>
+          <p>The site and whitelist endpoint are online whenever your GitHub Pages deployment is.</p>
+        </div>
+        <div class="status-card">
+          <span class="status-icon"><i></i></span>
+          <div>
+            <strong>All systems operational</strong>
+            <span>GitHub Pages ready</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="download">
+      <div class="cta scroll-reveal">
+        <div class="cta-glow" aria-hidden="true"></div>
+        <span class="kicker">ENTER THE ABYSS</span>
+        <h2>Your next win<br>starts here.</h2>
+        <p>Simple. Smooth. Built for BedWars.</p>
+        <a class="button button-primary" href="#" id="download-button">
+          Download config
+          <svg viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M10 3v10m0 0 4-4m-4 4L6 9M4 16h12"/>
+          </svg>
+        </a>
+        <small id="download-note">Add your config file and update this button when you're ready.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a class="brand footer-brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32"><path d="M16 3 27 9.4v13.2L16 29 5 22.6V9.4L16 3Z"/><path d="m11 20 5-11 5 11-5-2.3L11 20Z"/></svg>
+      </span>
+      <span>Abyss<span class="accent-text">Vape</span></span>
+    </a>
+    <p>BedWars' best config.</p>
+    <span>© <span id="year"></span> AbyssVape</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
